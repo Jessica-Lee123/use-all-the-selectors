@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+font-family: 'Shippori Mincho B1', serif;
+
+b,
+
+strong {
+  font-weight: normal;
+}
+.fruity-contents {
+  width: 40%;
+  float: left;
+  margin: .25em 1em 0 0;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: .8em;
+  font-style: italic;
+}
+
+header {
+  background-color: #fdf6e3
+  background-position: top;
+  color: #black;
+  text-align: center;
+  padding: 1em;
+}
+
+.headline {
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+.biggy {
+  font-size: 5em;
+  line-height: 1;
+}
+
+main {
+  line-height: 1;
+  background-color: #fdf6e3;
+}
+
+main a {
+  text-decoration: none;
+  color: #rgba(255, 0, 0, 0.5);
+}
+
+main a:hover {
+  color: blue;
+  border-bottom: 3px dotted #22419a;
+}
+.main-wrapper {
+  max-width: 60em;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main ul li {
+  display: inline;
+  margin : 0 1m;
+}
+
+main ul li:first-child {
+  margin-left: 0;
+}
+
+main ul li:last-child {
+  margin-right: 0;
+}
+
+.button {
+  background-color: #22429a;
+  color: #fff;
+  padding: .5em 1em;
+  border-radius: .3em;
+}
+
+.button:hover {
+  border-bottom: none;
+  color: #fff;
+  background-color: #ca4e28;
+}
+
+main .intro::first-letter {
+  font-size: 5em;
+  font-family: 'Shippori Mincho B1', serif;
+  float: left;
+  line-height: 3.5rem;
+  margin: .05em 0 0 0;
+}
