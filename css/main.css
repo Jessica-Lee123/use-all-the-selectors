@@ -73,6 +73,10 @@ main a:hover {
   padding: 1em;
 }
 
+h2 {
+  color: #93a1a1;
+}
+
 main ul {
   list-style-type: none;
   margin: 0;
