@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: serif;
   background-color: #fdf6e3
 }
 
@@ -32,7 +32,7 @@ header {
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: serif;
 }
 
 .biggy {
@@ -59,4 +59,14 @@ main ul li {
   display: inline;
   margin : 0 1m;
   color: #000000
+}
+
+.types {
+  display: inline;
+  margin : 0 1m;
+  color: #000000
+}
+
+footer{
+  font-size: 1.5rem;
 }
