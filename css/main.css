@@ -1,32 +1,31 @@
 html {
   box-sizing: border-box;
   font-family: serif;
-  background-color: #fdf6e3
+  background-color: #fdf6e3;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-b,
-
 strong {
   font-weight: normal;
 }
+
 .fruity-contents {
   width: 40%;
   float: left;
   margin: .25em 1em 0 0;
 }
+
 figure {
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #fdf6e3
-  ;background-position: top;
-  color: #000000;
+  background-color: #fdf6e3;
+  color: #000;
   text-align: center;
   padding: 1em;
 }
@@ -35,13 +34,11 @@ h1 {
   font-family: serif;
 }
 
-.biggy {
-  font-size: 5em;
+main {
   line-height: 1;
 }
 
-main {
-  line-height: 1;
+.wrapper {
   background-color: #eee8d5;
 }
 
@@ -57,15 +54,14 @@ main ul {
 
 main ul li {
   display: inline;
-  color: #000000
+  color: #000;
 }
 
 .types {
   display: inline;
-  margin : 1m;
-  color: #000000;
+  color: #000;
 }
 
 footer{
-  font-size: 1.5rem;
+  font-size: 1.5rem ;
 }
