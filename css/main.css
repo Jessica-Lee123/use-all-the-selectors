@@ -32,7 +32,7 @@ header {
 }
 
 h1 + strong {
-  font-family: sans-serif;
+  font-family: serif;
   font-weight: bold;
 }
 
@@ -54,7 +54,9 @@ h2 {
 }
 
 .types {
-  background-color: #657ba3
+  background-color: #657ba3;
+  background-color: #586e75;
+  background-color: #d04b16;
 }
 
 footer {
