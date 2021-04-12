@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
   background-color: #fdf6e3;
 }
 
@@ -8,26 +7,23 @@ html {
   box-sizing: inherit;
 }
 
-strong {
-  font-weight: normal;
-}
-
-.fruity-contents {
-  width: 40%;
-  float: left;
-  margin: .25em 1em 0 0;
-}
-
 figure {
   margin: 0;
   padding: 0;
 }
 
+nav ul {
+  font-family: sans-serif;
+}
+
 header {
   background-color: #fdf6e3;
   color: #000;
+  font-size: 1.5rem;
   text-align: left;
-  padding: 1.5em;
+}
+
+header .logo {
   text-transform: uppercase;
 }
 
@@ -36,17 +32,20 @@ h1 + strong {
   font-weight: bold;
 }
 
-main {
-  line-height: 1;
-}
-
 .wrapper {
   background-color: #eee8d5;
 }
 
 .wrapper > .dfn {
   background-color: #b58900;
+}
+
+.wrapper > .dfn > strong {
   color: #fff;
+}
+
+.wrapper > .div > .dfn {
+  margin-bottom: 1rem;
 }
 
 h2 {
