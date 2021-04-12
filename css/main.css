@@ -78,7 +78,11 @@ a {
 }
 
 .no-highlight {
-  background-color: #eee8d5; 
+  background-color: #eee8d5;
+}
+
+[rel="external"] {
+  background-color: #2694d8;
 }
 
 footer {
